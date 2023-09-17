@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Poppins:ital,wght@0,500;0,600;1,200;1,400&family=Staatliches&display=swap');
+
+*{
+    font-family: 'Staatliches', 'Caveat Brush', 'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #7b7878;
+    border-radius: 5rem;
+}
+
+:root{
+    --family: 'Poppins';
+    --btn: #3c3d42;
+    --text: #f6f8e2;
+
+
+}
+
+main{
+    background-image: url("./assets/bg.jpg");
+    height: 110vh;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.logo img{
+    height: 200px;
+    justify-content: flex-start;  
+}
+
+.header{
+    margin: auto;
+    display: flex;
+
+}
+.nav{
+    margin: auto 20px auto 250px;
+}
+
+.nav_list{
+    list-style: none;
+    display: flex;
+}
+
+.nav_list a{
+    font-family: var(--family);
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 0 30px;
+    text-decoration: none;
+    color: var(--text);
+}
+
+.nav_list a:hover{
+    text-decoration: underline;
+}
+
+.header input{
+    font-family: var(--family);
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: var(--text);
+    background: rgb(34,80,202);
+    background: linear-gradient(86deg, rgba(34,80,202,1) 11%, rgba(13,8,134,1) 96%);
+    border: none;
+    border-radius: 40px;
+    height: 40px;
+    margin: auto 20px;
+    padding: 0 20px;
+    
+}
+
+.header input:hover{
+    background: rgb(34,150,202);
+    background: linear-gradient(86deg, rgba(34,150,202,1) 11%, rgba(8,86,134,1) 96%);
+}
+
+.header .icon div{
+    color: var(--text);
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+}
+
+.header .icon div:hover{
+    color: var(--btn);
+    transition: 0.5s;
+}
+
+
+.login_form{
+    z-index: 1;
+    position: fixed;
+    height: 300px;
+    width: 400px;
+    background-color: rgba(255,255,255,0.13);
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+    visibility: hidden;
+    transition: 1s;
+    opacity: 0;
+}
+
+.login_form.active{
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.login_form *{
+    font-family: 'Roboto',sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+.login_form h3{
+    color: var(--text);
+    text-shadow: 2px 2px black;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: center;
+}
+
+.login_form label{
+    color: #000000;
+    display: block;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.login_form p{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+}
+
+
+.about{
+    margin: 70px 50px;
+}
+
+.intro{
+    text-shadow: 3px 3px black;
+    font-size: 30px;
+    color: var(--text);
+}
+
+.h3{
+    padding-top: 10px;
+    font-size: 30px;
+    text-shadow: 2px 2px black;
+    color: #2bc075;
+}
+
+.h4 h4{
+    padding-top: 10px;
+    text-shadow: 2px 2px black;
+    font-size: 14px;
+    color: var(--text);
+    font-family: var(--family);
+    font-weight: 200;
+}
+
+.btn input{
+    color: var(--text);
+    font-family: var(--family);
+    border-radius: 40px;
+    margin: 30px 30px ;
+    padding: 20px 40px;
+    background: rgb(34,80,202);
+    background: linear-gradient(86deg, rgba(34,80,202,1) 11%, rgba(13,8,134,1) 96%);
+    cursor: pointer;
+}
+
+.btn input:hover{
+    background: rgb(34,150,202);
+    background: linear-gradient(86deg, rgba(34,150,202,1) 11%, rgba(8,86,134,1) 96%);
+}
+
+.about_p{
+    color: var(--text);
+    text-shadow: 2px 2px black;
+    font-size: 20px;
+}
+
+
+.list{
+    margin: 0 30px;
+    font-size: 17px;
+    color: var(--text);
+    text-shadow: 1px 1px black;
+}
+
+.about_intro{
+    text-shadow: 3px 3px black;
+    font-size: 40px;
+    color: var(--text);
+}
+
+.about_end{
+    padding-top: 10px;
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+    color: #2bc075;
+}
+
+
+@media screen and (min-width:1024px) {
+    
+}
