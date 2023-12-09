@@ -196,7 +196,7 @@ main{
 }
 
 .intro{
-    text-shadow: 3px 3px black;
+    text-shadow: 2px 2px black;
     font-size: 30px;
     color: var(--text);
 }
@@ -204,8 +204,8 @@ main{
 .h3{
     padding-top: 10px;
     font-size: 30px;
-    text-shadow: 1px 1px rgb(250, 249, 249);
-    color: rgb(13, 101, 13);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    color: var(--text);
 }
 
 .h4 h4{
@@ -248,7 +248,7 @@ main{
 }
 
 .about_intro{
-    text-shadow: 3px 3px black;
+    text-shadow: 2px 2px black;
     font-size: 40px;
     color: var(--text);
 }
@@ -256,8 +256,8 @@ main{
 .about_end{
     padding-top: 10px;
     font-size: 20px;
-    text-shadow: 1px 1px rgb(250, 249, 249);
-    color: rgb(13, 101, 13);
+    text-shadow: 2px 2px rgb(10, 9, 9);
+    color: var(--text);
 }
 
 
