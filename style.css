@@ -43,7 +43,7 @@ html::-webkit-scrollbar-thumb{
 main{
     background-image: url("./assets/bg.jpg");
     height: 110vh;
-    width: 200vh;
+    width: 210vh;
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -56,7 +56,7 @@ main{
 }
 
 .header{
-    position: fixed;
+    position: absolute;
     justify-content: space-between;
     display: flex;
     align-items: center;
@@ -150,6 +150,10 @@ main{
     opacity: 1;
     visibility: visible;
 
+}
+
+.login_form a{
+    margin-left: 15px;
 }
 
 .login_form *{
@@ -264,14 +268,48 @@ main{
 
 @media (max-width:768px){
 
+
     main{
+        
         width: auto;
-        height: 200vh;
+        width: 100vw ;
+        height: 150vh;
     }
 
+    .login_form a{
+        font-size: 10px;
+        margin-left: 0.1px;
+    }
 
+    .login_form{
+        height: 300px;
+        width: 300px;
+        left: 45%;
+    }
+
+    .logo img{
+        height: 100px;
+        justify-content: flex-start;  
+    }
+
+    .btn input{
+        margin: 20px 10px ;
+        padding: 10px 30px;
+    }
     #menu-btn{
         display: inline-block;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    h4{
+        font-size: 20px;
     }
 
     .header .nav{
@@ -286,6 +324,7 @@ main{
         
     }
 
+   
 
     .header .nav.active{
         visibility: visible;

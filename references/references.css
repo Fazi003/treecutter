@@ -163,7 +163,7 @@
     width: 70%;
     height: 30%;
     top: 300px;
-    left: 100px;
+    left: 70px;
     color: transparent;
     border-radius: 10px;
     box-shadow: 10px 10px rgba(0, 0, 0, 0.1);
@@ -172,5 +172,10 @@
     z-index: 0;
     animation: imageAnimation 30s linear infinite 0s; 
 }
+
+    .ref_h1{
+        margin-top: 25rem;
+        margin-left: 110px;
+    }
 
   }
