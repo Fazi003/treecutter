@@ -41,7 +41,7 @@ html::-webkit-scrollbar-thumb{
 
 
 main{
-    background-image: url("./assets/bg.jpg");
+    background-image: url("./assets/bg1.jpg");
     height: 110vh;
     width: 210vh;
     background-position: center;
@@ -270,7 +270,7 @@ main{
 
 
     main{
-        
+        background-image: url("./assets/bg2.jpg");
         width: auto;
         width: 100vw ;
         height: 150vh;
