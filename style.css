@@ -253,6 +253,11 @@ main{
     color: var(--text);
 }
 
+    .name{
+        text-shadow: 1px 1px rgb(255, 255, 255);
+        color: rgba(8,86,134,1);
+    }
+
 .about_end{
     padding-top: 10px;
     font-size: 20px;
@@ -311,7 +316,7 @@ main{
     }
 
     h1{
-        font-size: 20px;
+        font-size: 40px;
     }
 
     h3{
