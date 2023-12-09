@@ -248,9 +248,10 @@ main{
 }
 
 .about_intro{
-    text-shadow: 2px 2px black;
+    text-shadow: 1px 1px rgb(255, 255, 255);
+        color: rgba(8,86,134,1);
     font-size: 40px;
-    color: var(--text);
+    
 }
 
     .name{
@@ -261,8 +262,8 @@ main{
 .about_end{
     padding-top: 10px;
     font-size: 20px;
-    text-shadow: 2px 2px rgb(10, 9, 9);
-    color: var(--text);
+    text-shadow: 1px 1px rgb(255, 255, 255);
+        color: rgba(8,86,134,1);
 }
 
 
@@ -320,10 +321,13 @@ main{
     }
 
     h3{
-        font-size: 20px;
+        font-size: 35px;
     }
 
     h4{
+        font-size: 20px;
+    }
+    h2{
         font-size: 20px;
     }
 
