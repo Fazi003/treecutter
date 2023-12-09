@@ -204,8 +204,8 @@ main{
 .h3{
     padding-top: 10px;
     font-size: 30px;
-    text-shadow: 2px 2px black;
-    color: #2bc075;
+    text-shadow: 1px 1px rgb(250, 249, 249);
+    color: rgb(13, 101, 13);
 }
 
 .h4 h4{
@@ -256,8 +256,8 @@ main{
 .about_end{
     padding-top: 10px;
     font-size: 20px;
-    text-shadow: 2px 2px black;
-    color: #2bc075;
+    text-shadow: 1px 1px rgb(250, 249, 249);
+    color: rgb(13, 101, 13);
 }
 
 
@@ -272,7 +272,7 @@ main{
     main{
         background-image: url("./assets/bg2.jpg");
         width: auto;
-        width: 100vw ;
+        width: 120vw ;
         height: 150vh;
     }
 
@@ -284,7 +284,17 @@ main{
     .login_form{
         height: 300px;
         width: 300px;
-        left: 45%;
+        left: 42%;
+    }
+
+    .login_form h3{
+        margin-left: 20px;
+    }
+
+    .header input{
+        height: 30px;
+        margin: auto 10px;
+        padding: 0 10px;
     }
 
     .logo img{
@@ -315,16 +325,23 @@ main{
     .header .nav{
         visibility: hidden;
         position: absolute;
-        top:60%; right: 0;
+        top:60%; right: 80px;
         background: #a7ad0ea3;
         width: 20rem;
-        height: calc(20vh - 9.5rem);
+        height: calc(25vh - 9.5rem);
         transition: 0.5s;
         opacity: 0;
         
     }
 
-   
+    .about_intro{
+        font-size: 30px;
+        margin-left: 0;
+    }
+    .about_p{
+        margin-left: 0;
+        font-size: 17px;
+    }
 
     .header .nav.active{
         visibility: visible;
